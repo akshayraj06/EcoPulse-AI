@@ -14,9 +14,7 @@
 
 ### 🚀 Making Cities Cleaner with Artificial Intelligence
 
-**Live Website:** https://YOUR_VERCEL_URL
-
-**Backend API:** https://YOUR_RENDER_URL
+**Live Website:** https://eco-pulse-ai-henna.vercel.app/
 
 </div>
 
@@ -274,8 +272,7 @@ GitHub:
 https://github.com/akshayraj06
 
 LinkedIn:
-https://linkedin.com/in/YOUR_LINKEDIN
-
+https://www.linkedin.com/in/akshayraj30/
 ---
 
 <div align="center">
