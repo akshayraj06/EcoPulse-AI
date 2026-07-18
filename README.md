@@ -200,7 +200,8 @@ Node.js + Express Backend (Render)
 
 ### Home Page
 
-> Add Screenshot Here
+> 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/33b85879-9352-4d90-80a4-f4dd661e76a3" />
 
 ---
 
