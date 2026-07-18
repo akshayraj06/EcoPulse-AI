@@ -1,23 +1,133 @@
-# EcoPulse AI
+<div align="center">
 
-Local development and QA runbook for EcoPulse AI (Citizen reporting + Worker verification).
+# 🌱 EcoPulse AI
+### AI-Powered Smart Waste Management & Community Cleanliness Platform
 
-Prerequisites
-- Node.js 18+ and npm
-- MongoDB connection (Atlas or local). If no DB is provided, server uses offline demo stores.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Node.js-Express-339933?style=for-the-badge&logo=node.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=for-the-badge&logo=mongodb" />
+  <img src="https://img.shields.io/badge/Vite-Frontend-646CFF?style=for-the-badge&logo=vite" />
+  <img src="https://img.shields.io/badge/AI-Gemini-4285F4?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
-Quick start
+### 🚀 Making Cities Cleaner with Artificial Intelligence
 
-1) Start backend
+**Live Website:** https://YOUR_VERCEL_URL
+
+**Backend API:** https://YOUR_RENDER_URL
+
+</div>
+
+---
+
+# 📖 About EcoPulse AI
+
+EcoPulse AI is an intelligent waste management and community cleanliness platform designed to help citizens report garbage issues, monitor cleanliness, and support authorities with AI-powered insights.
+
+The platform combines Artificial Intelligence, real-time dashboards, analytics, and complaint management into one modern web application that encourages cleaner and smarter cities.
+
+---
+
+# ✨ Key Features
+
+## 👤 User Features
+
+- 🔐 Secure User Authentication
+- 📝 Garbage Complaint Registration
+- 📍 Location-based Complaint Reporting
+- 📷 Image Upload Support
+- 🤖 AI Complaint Analysis
+- 📊 Complaint Tracking
+- 👤 User Dashboard
+- 📱 Responsive UI
+
+---
+
+## 🛡 Admin Features
+
+- 📈 Analytics Dashboard
+- 📊 Complaint Statistics
+- 👥 User Management
+- 📍 Complaint Monitoring
+- 🚛 Waste Collection Tracking
+- 📉 Performance Reports
+- 📌 Priority Management
+
+---
+
+## 🤖 AI Features
+
+- AI Complaint Categorization
+- Smart Waste Detection
+- AI Recommendation Engine
+- Intelligent Data Analysis
+- Automated Insights
+
+---
+
+# 🖥 Technology Stack
+
+| Frontend | Backend | Database | AI | Deployment |
+|----------|----------|-----------|----|------------|
+| React.js | Node.js | MongoDB Atlas | Gemini AI | Vercel |
+| Vite | Express.js | Mongoose | Google AI | Render |
+| Tailwind CSS | JWT | Cloudinary | AI APIs | GitHub |
+
+---
+
+# 📂 Project Structure
+
+```
+EcoPulse-AI/
+│
+├── client/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/
+│   ├── controllers/
+│   ├── routes/
+│   ├── models/
+│   ├── middleware/
+│   ├── config/
+│   ├── utils/
+│   ├── server.js
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/EcoPulse-AI.git
+```
+
+```bash
+cd EcoPulse-AI
+```
+
+---
+
+## Backend
 
 ```bash
 cd server
 npm install
-# create .env (see .env.example)
-npm run dev
+npm start
 ```
 
-2) Start frontend
+---
+
+## Frontend
 
 ```bash
 cd client
@@ -25,23 +135,153 @@ npm install
 npm run dev
 ```
 
-Useful environment variables (`server/.env`)
-- `PORT` (default `5000`)
-- `MONGODB_URI` (optional; if missing demo offline store used)
-- `CLIENT_URL` (e.g., `http://localhost:5173`)
-- `GEMINI_API_KEY` (optional — only for Gemini verification)
+---
 
-Manual E2E checklist
-- Citizen: Report Issue -> Upload image -> Analyze -> Submit Complaint -> Verify complaint appears in My Complaints.
-- Worker: Open assigned task -> Upload `Before Image (pre-clean)` and `After Image (post-clean)` -> Submit Cleanup for AI Verification -> Confirm timeline updates.
-- Supervisor: Confirm escalations after repeated ignores appear in Supervisor Dashboard.
+# 🔑 Environment Variables
 
-Troubleshooting
-- If Vite shows an overlay error, open browser DevTools Console and copy the error text.
-- If server fails to start, check `server/.env` and share the terminal stack trace with the team.
+## Backend (.env)
 
-Handoff notes
-- Key files edited for QA and UX: `server/utils/aiWasteAnalysis.js`, `server/controllers/complaintController.js`, `client/src/pages/worker/WorkersTaskDetails.jsx`, `client/src/components/dashboard/Topbar.jsx`, `client/src/layouts/AdminLayout.jsx`.
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_secret_key
+GEMINI_API_KEY=your_api_key
+CLOUDINARY_CLOUD_NAME=your_cloud
+CLOUDINARY_API_KEY=your_key
+CLOUDINARY_API_SECRET=your_secret
+```
 
-Contact
-- When reporting runtime errors, include server terminal logs and browser console output.
+---
+
+## Frontend (.env)
+
+```env
+VITE_API_URL=http://localhost:5000/api
+```
+
+---
+
+# 🌍 Deployment
+
+### Frontend
+
+Vercel
+
+### Backend
+
+Render
+
+### Database
+
+MongoDB Atlas
+
+---
+
+# 📊 System Architecture
+
+```
+User
+   │
+   ▼
+React Frontend (Vercel)
+   │
+Axios API Requests
+   │
+   ▼
+Node.js + Express Backend (Render)
+   │
+   ├──────── MongoDB Atlas
+   │
+   ├──────── Gemini AI
+   │
+   └──────── Cloudinary
+```
+
+---
+
+# 📸 Application Preview
+
+### Home Page
+
+> Add Screenshot Here
+
+---
+
+### User Dashboard
+
+> Add Screenshot Here
+
+---
+
+### Admin Dashboard
+
+> Add Screenshot Here
+
+---
+
+### Complaint Management
+
+> Add Screenshot Here
+
+---
+
+### AI Analysis
+
+> Add Screenshot Here
+
+---
+
+# 📈 Future Enhancements
+
+- 🔔 Real-Time Notifications
+- 📱 Mobile Application
+- 🌍 GIS Map Integration
+- 🤖 AI Prediction Models
+- 🚛 Smart Route Optimization
+- 📡 IoT Smart Dustbins
+- ☁ Multi-City Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+```bash
+Fork the Repository
+
+Create a New Branch
+
+Commit Changes
+
+Push Changes
+
+Create Pull Request
+```
+
+---
+
+# 👨‍💻 Developer
+
+## Akshay Raj
+
+Computer Science (AI & ML)
+
+Full Stack Web Developer
+
+Machine Learning Enthusiast
+
+GitHub:
+https://github.com/akshayraj06
+
+LinkedIn:
+https://linkedin.com/in/YOUR_LINKEDIN
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to Star the Repository ⭐
+
+Made with ❤️ using React, Node.js, MongoDB & AI
+
+</div>
