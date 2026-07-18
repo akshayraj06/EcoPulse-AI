@@ -1,0 +1,98 @@
+[
+  {
+    "id": "d2a946e8-7083-470a-bcbb-f31c4b06708d",
+    "name": "Crash Fix",
+    "email": "crash.fix.1784364165@example.com",
+    "password": "$2b$10$EHQpMkeFadhAPYyMqSjSO.pJFSd7YYUf7bdYJcNSohPmMfuF9sxZ6",
+    "role": "citizen",
+    "createdAt": "2026-07-18T08:42:46.218Z"
+  },
+  {
+    "id": "430c9f41-7a0b-4f64-9739-168580c45a13",
+    "name": "vijay",
+    "email": "vijaykumar@gmail.com",
+    "password": "$2b$10$18A/fryMrBBVycKw4iZgIOg3GnW6uRyzM/RAErGRQWMMwrRvW.QMa",
+    "role": "supervisor",
+    "createdAt": "2026-07-18T08:46:42.282Z"
+  },
+  {
+    "id": "b8f63acf-a2f9-48da-b883-1047bc20a6c6",
+    "name": "kiran",
+    "email": "kirankumar@gmail.com",
+    "password": "$2b$10$J7lqFU08.y8tM6QYsJ1lEuK/7I49O4ikSS1dM1dN99poKacBaOZ.e",
+    "role": "admin",
+    "createdAt": "2026-07-18T09:00:41.968Z"
+  },
+  {
+    "id": "53ef9015-0425-4805-bb1f-d633993fd95b",
+    "name": "Akshay",
+    "email": "akshay@gmail.com",
+    "password": "$2b$10$oLX4jfhfjm40TCp4R0CO2OxsbBHBjq4g32vEStfLHkTkBVo3BXrbK",
+    "role": "citizen",
+    "createdAt": "2026-07-18T09:01:46.513Z"
+  },
+  {
+    "id": "68711bda-0d17-4887-8fba-fe2eaf3b79d2",
+    "name": "kiran",
+    "email": "kiran@gmail.com",
+    "password": "$2b$10$0gW3B8PjbrVRsDRMN8Azqut91Haqp242.Sv7nrricQUtRshTT46Sy",
+    "role": "worker",
+    "createdAt": "2026-07-18T09:03:19.553Z"
+  },
+  {
+    "id": "148389ef-5c6d-42fe-8061-97c65c41d3a7",
+    "name": "Image Test Citizen",
+    "email": "image.test.citizen@example.com",
+    "password": "$2b$10$wqvppi9xDbNKActNV8vyUOI0v9EhjCxgfV4Co9E0XpX960VvGep9G",
+    "role": "citizen",
+    "createdAt": "2026-07-18T10:24:10.630Z"
+  },
+  {
+    "id": "c6a2a352-fd2a-4808-9acf-9f7aa80151ff",
+    "name": "Demo Citizen",
+    "email": "demo.citizen@test.com",
+    "password": "$2b$10$TZDVunqV2.B55grJEP2vo.8NUos6IolyfqIhV.uNmXlrVu0YUsLei",
+    "role": "citizen",
+    "createdAt": "2026-07-18T10:52:46.895Z"
+  },
+  {
+    "id": "65ac225a-a81b-4c6c-8467-7e812447059a",
+    "name": "raj",
+    "email": "raj@gmail.com",
+    "password": "$2b$10$sjtRfxIDCcC/rCzBStnMnOQnrhc.8uQf3LXpYe5aPH4WNv.VOe64i",
+    "role": "citizen",
+    "createdAt": "2026-07-18T11:07:20.722Z"
+  },
+  {
+    "id": "46570884-dc50-4328-bc31-53d512689759",
+    "name": "Ravi",
+    "email": "ravi@gmail.com",
+    "password": "$2b$10$su9qIERfRlb0oRXtzu.wOuMHoDU2Z/pR3hOJNLZD3bhngM1VsWZ4.",
+    "role": "citizen",
+    "createdAt": "2026-07-18T15:47:30.147Z"
+  },
+  {
+    "id": "22920634-de1a-4c22-bcf0-a355ea0c698c",
+    "name": "varun ",
+    "email": "varun@gmail.com",
+    "password": "$2b$10$Y/rhtlD2Whpvp2faScR9i.e4DXUZqdq2j8XHYUVebq/pdCaNyVIdW",
+    "role": "worker",
+    "createdAt": "2026-07-18T15:56:11.845Z"
+  },
+  {
+    "id": "f5a40751-ab99-4b03-b956-0a96aa382784",
+    "name": "raju",
+    "email": "raju@gmail.com",
+    "password": "$2b$10$cdxL5Po2WhwXOY3V01xQ8uhE3/Osw3FgF7xeqd/iKi55mqPCfUhYW",
+    "role": "supervisor",
+    "createdAt": "2026-07-18T16:02:37.040Z"
+  },
+  {
+    "id": "7c2f3cac-39fb-4066-9461-e628aca42082",
+    "name": "dinesh",
+    "email": "dinesh@gmail.com",
+    "password": "$2b$10$Tdt80p2vvvMD5/N6T60FUup1b1emDR34vFaXSGXZqSJbPwvrvdf/a",
+    "role": "admin",
+    "createdAt": "2026-07-18T16:07:15.605Z"
+  }
+]

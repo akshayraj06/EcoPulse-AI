@@ -1,0 +1,10 @@
+[
+  {
+    "id": "8e8831b9-d4c7-4752-b088-36ecd3bca2ea",
+    "name": "Auth Fix",
+    "email": "auth.fix.1784363926@example.com",
+    "password": "$2b$10$N0zqSYMSgZwrPf7OtjYc5eZIm1KQs5w8m2ZgoGHIXnI1ruFqDv7XO",
+    "role": "citizen",
+    "createdAt": "2026-07-18T08:38:47.405Z"
+  }
+]
