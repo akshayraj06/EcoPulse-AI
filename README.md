@@ -207,25 +207,31 @@ Node.js + Express Backend (Render)
 
 ### User Dashboard
 
-> Add Screenshot Here
+>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4a8f8a7-846d-47cc-937f-49cd85e1214e" />
+
 
 ---
 
-### Admin Dashboard
+### Workers Dashboard
 
-> Add Screenshot Here
+>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ee39786-2a66-4690-a61a-adfa6f45a5c2" />
+
 
 ---
 
-### Complaint Management
+### Supervisor Dashboard
 
-> Add Screenshot Here
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/133c9cf7-df15-41c9-96bd-4971b5b7c514" />
+
 
 ---
 
 ### AI Analysis
 
-> Add Screenshot Here
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/72c59e0a-d609-4559-b566-d85c2a81e952" />
+
 
 ---
 
@@ -274,6 +280,7 @@ https://github.com/akshayraj06
 
 LinkedIn:
 https://www.linkedin.com/in/akshayraj30/
+
 ---
 
 <div align="center">
